@@ -1,6 +1,27 @@
 import numpy as np
 import warnings
 from numpy.linalg import solve
+ """
+solve a system Lx=b where L is a lower triangle co-eff. matrix, b is the right rand side vector for matrix where each column is a rhs vector
+
+parameters: 
+____________________
+- A : array like
+	lower triangle
+	size: nxn
+- b: array like
+	right hand sides
+	size: (,n) or (n,m)
+where m is columns
+
+
+returns:
+___________________
+numpy.ndarray
+	vector or matrix of solutions x
+	this will have the same shape as b
+
+"""
 
 def gauss_iter_solve(A, b, x0=None, tol=1e-8, alg='seidel'):
     A = np.array(A, dtype=float)

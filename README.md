@@ -15,4 +15,10 @@ python -m venv.venv
 .venv\Scripts\activate
 
 python -m pip install -r requirements.txt
+# to run tests:
+python -m examples.tests
+
+# to plot splines:
+
+python -m examples.driver
 

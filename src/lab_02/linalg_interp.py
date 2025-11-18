@@ -1,7 +1,7 @@
 import numpy as np
 import warnings
 from numpy.linalg import solve
- """
+"""
 solve a system Lx=b where L is a lower triangle co-eff. matrix, b is the right rand side vector for matrix where each column is a rhs vector
 
 parameters: 

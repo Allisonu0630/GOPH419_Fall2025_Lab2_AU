@@ -10,9 +10,9 @@ git clone https://github.com/Allisonu0630/GOPH419_Fall2025_Lab2_AU.git
 
 cd GOPH419_Fall2025_Lab2_AU
 
-python -m venv.venv
+python -m venv venv
 
-.venv\Scripts\activate
+venv\Scripts\Activate
 
 python -m pip install -r requirements.txt
 # to run tests:
